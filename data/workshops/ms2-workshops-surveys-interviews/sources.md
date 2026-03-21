@@ -1,0 +1,40 @@
+# Sources
+
+Original data sources for the MS2 qualitative data collection.
+
+## Google Sheets
+
+| Sheet Name | URL | Description |
+|-----------|-----|-------------|
+| (RAW) Aggregated Workshops, Surveys & Interviews Responses (MS2) | _Add Google Sheets URL here_ | Master workbook containing all 16 data sheets (surveys, interviews, workshop responses) |
+
+## Miro Boards
+
+**Full board (all sessions):** [https://miro.com/app/board/uXjVGKVvy50=](https://miro.com/app/board/uXjVGKVvy50=/)
+
+**Reusable workshop template:** [https://miro.com/miroverse/cardano-beyond-mvg-workshop-template](https://miro.com/miroverse/cardano-beyond-mvg-workshop-template/) -- use this to run your own Beyond MVG workshop sessions.
+
+Individual board sections (PDF exports in [`visuals/`](visuals/)):
+
+| Board Name | Related Metrics | Description |
+|-----------|----------------|-------------|
+| Cardano Beyond MVG Workshops - Intro | General | Workshop framework overview and introduction |
+| Cardano Beyond MVG Workshops - Participation in Governance | M1 | Barriers to active governance participation |
+| Cardano Beyond MVG Workshops - DRep Delegation | M2/M3 | DRep delegation patterns and stickiness |
+| Cardano Beyond MVG Workshops - Power Concentration | M4/M5 | Voting power distribution (Gini/Nakamoto) |
+| Cardano Beyond MVG Workshops - Voting Rationales | M6/M11 | DRep and CC rationale publication |
+| Cardano Beyond MVG Workshops - SPO Participation | M8/M9 | SPO governance engagement and stickiness |
+| Cardano Beyond MVG Workshops - Speed of Constitutional Committee | M10 | CC response time factors |
+
+## Video Recordings
+
+| Session | URL | Description |
+|---------|-----|-------------|
+| Workshop Session 1 | [https://www.youtube.com/watch?v=D384TI5Tob8](https://www.youtube.com/watch?v=D384TI5Tob8) | First facilitated Beyond MVG workshop |
+| Workshop Session 2 | [https://www.youtube.com/watch?v=Xopq9rT-L9U](https://www.youtube.com/watch?v=Xopq9rT-L9U) | Second facilitated Beyond MVG workshop |
+
+## Notes
+
+- The original Excel workbook is preserved in [`raw-data/`](raw-data/) for download
+- Individual sheets have been exported as CSVs in [`raw-data/surveys/`](raw-data/surveys/), [`raw-data/interviews/`](raw-data/interviews/), and [`raw-data/workshop-responses/`](raw-data/workshop-responses/)
+- Miro board PDFs are in [`visuals/`](visuals/)

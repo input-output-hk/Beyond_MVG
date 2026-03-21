@@ -47,7 +47,12 @@ Beyond_MVG/
 │   ├── State_of_Governance_Report_Outline.pdf
 │   └── State_of_Governance_Measurement_Framework.pdf
 ├── data/                        # Data results from report queries
+│   ├── On-chain-measurements-*/  # Quantitative on-chain metric CSVs by epoch range
+│   ├── On-chain-visuals-*/       # Visualizations of on-chain metrics
+│   └── workshops/                # Qualitative workshop data (Google Sheets, Miro exports)
+│       └── YYYY-MM-DD-topic/     # Per-session: raw-data/, visuals/, sources.md
 ├── setup-and-query/             # Setup Cardano Node with DbSync and logic to gather data
+├── create-visuals/              # Scripts and tools for generating visualizations
 ├── .github/
 │   └── ISSUE_TEMPLATE/          # Templates for feature requests
 ├── CHANGELOG.md                 # Version history and document updates
