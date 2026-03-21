@@ -38,6 +38,6 @@ Open-ended semi-structured interview responses. Column codes use `-S` suffix (e.
 
 ## Original Source
 
-The complete Excel workbook with all 16 sheets is preserved here for download:
+The complete workbook with all 16 sheets is available as a Google Sheet:
 
-**[(RAW) Aggregated Workshops, Surveys & Interviews Responses (MS2).xlsx](<(RAW) Aggregated Workshops, Surveys & Interviews Responses (MS2).xlsx>)**
+**[Open in Google Sheets](https://docs.google.com/spreadsheets/d/1_FWuTPjI0COb9A3PiQB_8g1U8ruAVUf5VRGSvoP2I18/edit?gid=1926398312#gid=1926398312)**

@@ -6,7 +6,7 @@ Original data sources for the MS2 qualitative data collection.
 
 | Sheet Name | URL | Description |
 |-----------|-----|-------------|
-| (RAW) Aggregated Workshops, Surveys & Interviews Responses (MS2) | _Add Google Sheets URL here_ | Master workbook containing all 16 data sheets (surveys, interviews, workshop responses) |
+| (RAW) Aggregated Workshops, Surveys & Interviews Responses (MS2) | [Google Sheets](https://docs.google.com/spreadsheets/d/1_FWuTPjI0COb9A3PiQB_8g1U8ruAVUf5VRGSvoP2I18/edit?gid=1926398312#gid=1926398312) | Master workbook containing all 16 data sheets (surveys, interviews, workshop responses) |
 
 ## Miro Boards
 
@@ -35,6 +35,6 @@ Individual board sections (PDF exports in [`visuals/`](visuals/)):
 
 ## Notes
 
-- The original Excel workbook is preserved in [`raw-data/`](raw-data/) for download
+- The original data lives in the [Google Sheets workbook](https://docs.google.com/spreadsheets/d/1_FWuTPjI0COb9A3PiQB_8g1U8ruAVUf5VRGSvoP2I18/edit?gid=1926398312#gid=1926398312) (16 sheets)
 - Individual sheets have been exported as CSVs in [`raw-data/surveys/`](raw-data/surveys/), [`raw-data/interviews/`](raw-data/interviews/), and [`raw-data/workshop-responses/`](raw-data/workshop-responses/)
 - Miro board PDFs are in [`visuals/`](visuals/)

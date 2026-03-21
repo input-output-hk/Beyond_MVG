@@ -105,11 +105,11 @@ High-quality PDF exports of collaborative Miro boards used during workshops. Eac
 | [SPO Participation](visuals/Cardano%20Beyond%20MVG%20Workshops%20-%20SPO%20Participation.pdf) | SPO engagement in governance | M8, M9 (SPO engagement & stickiness) |
 | [Speed of Constitutional Committee](visuals/Cardano%20Beyond%20MVG%20Workshops%20-%20Speed%20of%20Constitutional%20Committee.pdf) | CC response time factors | M10 (CC response time) |
 
-### Original Source File
+### Original Source
 
-The complete original Excel workbook (16 sheets) is preserved at:
+The complete original workbook (16 sheets) is available as a Google Sheet:
 
-[`raw-data/(RAW) Aggregated Workshops, Surveys & Interviews Responses (MS2).xlsx`](raw-data/(RAW)%20Aggregated%20Workshops,%20Surveys%20&%20Interviews%20Responses%20(MS2).xlsx)
+[**Open in Google Sheets**](https://docs.google.com/spreadsheets/d/1_FWuTPjI0COb9A3PiQB_8g1U8ruAVUf5VRGSvoP2I18/edit?gid=1926398312#gid=1926398312)
 
 ---
 
