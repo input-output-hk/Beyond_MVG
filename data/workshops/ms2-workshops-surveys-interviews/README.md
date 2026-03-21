@@ -31,7 +31,6 @@ tags:
   - beyond-mvg
 data_formats:
   - csv
-  - xlsx
   - pdf
 ---
 
