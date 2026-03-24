@@ -12,7 +12,7 @@ Original data sources for the MS2 qualitative data collection.
 
 **Full board (all sessions):** [https://miro.com/app/board/uXjVGKVvy50=](https://miro.com/app/board/uXjVGKVvy50=/)
 
-**Reusable workshop template:** [https://miro.com/miroverse/cardano-beyond-mvg-workshop-template](https://miro.com/miroverse/cardano-beyond-mvg-workshop-template/) -- use this to run your own Beyond MVG workshop sessions.
+**Reusable workshop template:** [https://miro.com/miroverse/cardano-beyond-mvg-workshop-template](https://miro.com/miroverse/cardano-beyond-mvg-workshop-template/)
 
 Individual board sections (PDF exports in [`visuals/`](visuals/)):
 
@@ -30,8 +30,8 @@ Individual board sections (PDF exports in [`visuals/`](visuals/)):
 
 | Session | URL | Description |
 |---------|-----|-------------|
-| Workshop Session 1 | [https://www.youtube.com/watch?v=D384TI5Tob8](https://www.youtube.com/watch?v=D384TI5Tob8) | First facilitated Beyond MVG workshop |
-| Workshop Session 2 | [https://www.youtube.com/watch?v=Xopq9rT-L9U](https://www.youtube.com/watch?v=Xopq9rT-L9U) | Second facilitated Beyond MVG workshop |
+| Workshop Session 1 | [https://www.youtube.com/watch?v=D384TI5Tob8](https://www.youtube.com/watch?v=D384TI5Tob8)
+| Workshop Session 2 | [https://www.youtube.com/watch?v=Xopq9rT-L9U](https://www.youtube.com/watch?v=Xopq9rT-L9U)
 
 ## Notes
 

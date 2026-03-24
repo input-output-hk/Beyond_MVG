@@ -1,4 +1,4 @@
-# Visuals -- Miro Board Exports
+# Visuals - Miro Board Exports
 
 High-quality PDF exports of collaborative Miro boards used during the Beyond MVG governance workshops. Each board maps stakeholder discussion clusters to specific governance metrics.
 

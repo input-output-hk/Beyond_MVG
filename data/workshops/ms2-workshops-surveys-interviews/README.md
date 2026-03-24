@@ -27,16 +27,17 @@ metrics_covered:
 tags:
   - governance
   - qualitative
+  - metrics
   - cardano
-  - beyond-mvg
+  - beyondmvg
 data_formats:
   - csv
   - pdf
 ---
 
-# MS2 -- Aggregated Workshops, Surveys & Interviews
+# MS2 - Aggregated Workshops, Surveys & Interviews
 
-> Qualitative data collected through surveys, semi-structured interviews, and facilitated workshops as part of the Beyond MVG Milestone 2 deliverables.
+> Qualitative data collected through surveys, semi-structured interviews and facilitated workshops as part of the Beyond MVG Milestone 2 deliverables.
 
 **Miro Board:** [View full board](https://miro.com/app/board/uXjVGKVvy50=/) | **Workshop Template:** [Replicate on Miroverse](https://miro.com/miroverse/cardano-beyond-mvg-workshop-template/) | **Video:** [Session 1](https://www.youtube.com/watch?v=D384TI5Tob8) | [Session 2](https://www.youtube.com/watch?v=Xopq9rT-L9U)
 
