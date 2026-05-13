@@ -1,13 +1,14 @@
 # Beyond MVG — State of Cardano Governance
 
 
-> A research initiative commissioned by Cardano DReps and delivered by Input Output (IO) and Cardano Community Members.
+> A research initiative commissioned by Cardano DReps and delivered by Input Output Group (IOG) and Cardano Community Members.
 
-[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 [![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/kenerik/Beyond_MVG)
 [![Cardano](https://img.shields.io/badge/Cardano-CIP--1694-blue)](https://cips.cardano.org/cip/CIP-1694)
 [![Documents](https://img.shields.io/badge/documents-3-orange)](docs/)
 [![Metrics](https://img.shields.io/badge/metrics-12-blueviolet)](README.md#governance-metrics-at-a-glance)
+[![Version](https://img.shields.io/badge/version-1.1.0-lightgrey)](CHANGELOG.md)
 
 ## Overview
 
@@ -19,22 +20,24 @@ The project goes **beyond the Minimum Viable Governance (MVG)** baseline by esta
 
 ## Authors
 
-Commissioned by Cardano DReps; delivered by IO and Cardano Community Members including:
+Commissioned by Cardano DReps; delivered by IOG and Cardano Community Members in alphabetical order:
 
 | Name | Affiliation |
 |---|---|
-| Fanny Wijaya | — |
+| Danielle Stanko | IOG |
+| Fanny Wijaya | - |
+| JM Martinez Felices | IOG |
+| Kelvin Peter | IOG |
 | Ken Erik Oelmheim | — |
 | Maureen Wepngong | Giiyo Tech |
 | Max van Rossem | — |
 | Nana Safo | Wada Global |
 | Richmond Oppong | Wada Global |
-| Tevo Kask | — |
+| Tevo Kask | SWARM |
 
-Special thanks to everyone that contributed, had critical eyes, debated with us, responded to surveys,  and made this report possible.
+Special thanks to everyone that contributed, had critical eyes, debated with us, responded to surveys, and made this report possible.
 
-CIVICS Governance Health Working Group , Nicolas Cerny, Cathy Hermstad Patanakarun, Larisa Mcfarlane, Vaibhav Solanki, Thomas Lindseth, Mike Hornan, Cardano over coffee, 45B - Cardano Enablement, Epoch end, Cardano budget committee, Beatrice Anihiri, Will Eddie, Arman Abid, Van Rossem family, Cardano foundation, Charles Hoskinson and all employees at IOG, CIP-1694 contributors, 
-
+CIVICS Governance Health Working Group , Nicolas Cerny, Cathy Hermstad Patanakarun, Larisa Mcfarlane, Vaibhav Solanki, Thomas Lindseth, Mike Hornan, Cardano over coffee, 45B - Cardano Enablement, Epoch end, Cardano budget committee, Beatrice Anihiri, Will Eddie, Arman Abid, Van Rossem family, Cardano foundation, Charles Hoskinson and all employees at IOG, CIP-1694 contributors,
 
 ---
 
@@ -42,23 +45,49 @@ CIVICS Governance Health Working Group , Nicolas Cerny, Cathy Hermstad Patanakar
 
 ```
 Beyond_MVG/
-├── docs/                        # Core research documents (PDF)
-│   ├── Governance_Metrics_Manual.pdf 
-│   ├── State_of_Governance_Report_Outline.pdf
-│   └── State_of_Governance_Measurement_Framework.pdf
-├── data/                        # Data results from report queries
-│   ├── On-chain-measurements-*/  # Quantitative on-chain metric CSVs by epoch range
-│   ├── On-chain-visuals-*/       # Visualizations of on-chain metrics
-│   └── workshops/                # Qualitative workshop data (Google Sheets, Miro exports)
-│       └── YYYY-MM-DD-topic/     # Per-session: raw-data/, visuals/, sources.md
-├── setup-and-query/             # Setup Cardano Node with DbSync and logic to gather data
-├── create-visuals/              # Scripts and tools for generating visualizations
+├── docs/                                         # Core research documents (PDF)
+│   ├── M1-1D_ Governance Metrics Manual.pdf
+│   ├── M1-1D_ State of Governance - Report Outline
+│   ├── M1-1D_ State of Governance Measurement Framework
+│   └── cardano-node-setup & Query DbSync - step by step   # Node setup reference
+│   └── Visualization Derivation Plan - step by step (TBD according to feedback)
+│
+├── data/                                         # Data results from report queries and generated visualizations
+│   ├── On-chain-measurements-epoch-537-609/      # Raw CSV metric data (epochs 537–609)
+│   │   ├── ada-owner-metrics/                    # M1–M3: Voting %, delegators, stickiness
+│   │   ├── DRep-Metrics/                         # M4–M7: Gini, Nakamoto, rationale, net change
+│   │   ├── SPO-Metrics/                          # M8–M9: SPO engagement & stickiness
+│   │   └── CC-Metrics/                           # M10–M12: Response time, rationale, abstain rate
+│   │
+│   ├── On-chain-visuals-epoch-537-609/           # Chart exports (PNG) for each metric
+│   │   ├── ada-owner-metrics/
+│   │   ├── DRep-metrics/
+│   │   ├── SPO-metrics/
+│   │   └── CC-metrics/
+│   │
+│   ├── Interview notes                           # Notes from carried out interviews
+│   │
+│   ├── Surveys response                          # Response from surveys
+│   │   ├── ENG/
+│   │   ├── ESP/
+│   │   └── JPN/
+│   │
+│   └── workshops/
+│       └── ms2-workshops-surveys-interviews/     # MS2 qualitative data
+│           ├── raw-data/
+│           │   ├── surveys/                      # 9 CSVs across 5 stakeholder groups (incl. JPN)
+│           │   ├── interviews/                   # 5 CSVs — semi-structured interview responses
+│           │   └── workshop-responses/           # Facilitator workshop summaries (4 sessions)
+│           ├── visuals/                          # 7 Miro board PDF exports by topic
+│           ├── sources.md                        # Links to Google Sheets & Miro boards
+│           └── README.md                         # Full data manifest and metric reference
+│
 ├── .github/
-│   └── ISSUE_TEMPLATE/          # Templates for feature requests
-├── CHANGELOG.md                 # Version history and document updates
-├── CONTRIBUTING.md              # How to contribute to this project
-├── LICENSE                      # MIT License
-└── README.md                    # This file
+│   └── ISSUE_TEMPLATE/                           # Templates for feature requests
+├── CHANGELOG.md                                  # Version history and document updates
+├── CONTRIBUTING.md                               # How to contribute to this project
+├── LICENSE                                       # MIT License
+└── README.md                                     # This file
 ```
 
 ---
@@ -73,10 +102,14 @@ The foundational research document presenting the rationale and theoretical basi
 - **SPO Metrics** — Security & Oversight
 - **Constitutional Committee Metrics** — Constitutional Adherence & Veto Oversight
 
-### 2. [Governance Metrics Manual](docs/Governance_Metrics_Manual.pdf)
+### 2. [Click here for the Interactive Technical Manual](https://kenerik.github.io/Beyond_MVG/cardano-node-setup.html)
 Step-by-step technical guidance for calculating each metric. Intended for tooling providers and technical community members who want to independently implement or verify measurements. Covers data sources, SQL query logic, and visualization specifications for all 12 defined metrics.
 
-### 3. [State of Governance Report Outline](docs/State_of_Governance_Report_Outline.pdf)
+### 3. [Click here for technical manual on how to make visual from data ](https://kenerik.github.io/Beyond_MVG/on-chain-data-visualization.html)
+Step-by-step technical guidance for calculating and generate visuals for each metric.
+Intended for tooling providers and technical community members who want to independently implement.
+
+### 4. [State of Governance Report Outline](docs/State_of_Governance_Report_Outline.pdf)
 The template and structure for producing periodic State of Cardano Governance reports using the measurement framework. Defines sections covering methodology, key findings by GMF category, governance action analysis, and forward path recommendations.
 
 ---
@@ -103,7 +136,10 @@ The template and structure for producing periodic State of Cardano Governance re
 ## Data Sources
 
 - **Cardano Node + cardano-db-sync** — Primary on-chain data source for all quantitative metrics
-- **Epoch boundary snapshots** — Used for all delegation and voting metrics per CIP-1694
+- **Epoch boundary snapshots** — On-chain CSV measurements for epochs 537–609 available in [`data/On-chain-measurements-epoch-537-609/`](data/On-chain-measurements-epoch-537-609/)
+- **Surveys, interviews & workshops** — Qualitative data from 5 stakeholder groups (ADA holders, DReps, SPOs, CC Members, Builders) including Japanese community responses, available in [`data/workshops/ms2-workshops-surveys-interviews/`](data/workshops/ms2-workshops-surveys-interviews/)
+- **Miro board exports** — 7 workshop visual PDFs mapping community discussions to governance metrics
+- **Google Sheets (original workbook)** — [Full 16-sheet workbook](https://docs.google.com/spreadsheets/d/1_FWuTPjI0COb9A3PiQB_8g1U8ruAVUf5VRGSvoP2I18/edit) with all raw survey and interview data
 
 ---
 
@@ -111,7 +147,7 @@ The template and structure for producing periodic State of Cardano Governance re
 
 - **Quantitative metrics** use on-chain data queryable via cardano-db-sync and can be automated for continuous monitoring.
 - **Qualitative data** (surveys, stakeholder interviews, workshops) supplements on-chain measurements to capture the "why" behind observed patterns.
-- AI tools (Gemini CLI and Claude Code) were used to enforce consistency between documents and structure the analysis. All AI-assisted content was reviewed by the research team.
+- AI tools (Gemini CLI and Claude Code) were used to enforce consistency between documents and structure the analysis. All AI-assisted content was reviewed by Beyond MVG team.
 
 ---
 
@@ -134,15 +170,19 @@ We welcome contributions from the Cardano community. Please read [CONTRIBUTING.m
 
 ## License
 
+This repository contains materials under two separate licenses:
 
-This project is licensed under the [MIT License](LICENSE).
+Code and tooling (all files in /src, /scripts, and related directories): Licensed under the Apache 2.0 License.
+Research report and data (all files in /docs and /data): Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
+Under CC BY-NC-SA 4.0, you are free to share and adapt the research report and data for non-commercial purposes, provided you give appropriate credit to Input Output Global, Inc. (IOG) and distribute any adaptations under the same license
+
 ```
   ____                             _   __  ____      _______ 
  |  _ \                           | | |  \/  \ \    / / ____|
  | |_) | ___ _   _  ___  _ __   __| | | \  / |\ \  / / |  __ 
  |  _ < / _ \ | | |/ _ \| '_ \ / _` | | |\/| | \ \/ /| | |_ |
  | |_) |  __/ |_| | (_) | | | | (_| | | |  | |  \  / | |__| |
- |____/ \___|\__, |\___/|_| |_|\__,_| |_|  |_|   \/   \_____|
+ |____/ \___|\___, |\___/|_| |_|\__,_| |_|  |_|   \/   \_____|
               __/ |                                          
              |___/                                      2026
 ```
