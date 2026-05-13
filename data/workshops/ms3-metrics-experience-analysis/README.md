@@ -1,7 +1,7 @@
 ---
 type: qualitative-data
 milestone: MS3
-topic: "Governance Metrics Analysis & Stakeholder Experience Workshops"
+topic: "Governance Metrics Analysis Workshop"
 data_collection_methods:
   - workshops
   - facilitated-discussion
@@ -30,67 +30,65 @@ data_formats:
   - md
 ---
 
-# MS3 - Governance Metrics Analysis & Stakeholder Experience Workshops
+# MS3, Governance Metrics Analysis Workshop
 
-> Workshops conducted during Beyond MVG Milestone 3 to walk the community
-> through the on-chain governance metrics dashboards and to gather lived
+> Workshop conducted during Beyond MVG Milestone 3 to walk the community
+> through the on-chain governance metrics dashboards and gather lived
 > experience input from ADA holders, DReps, SPOs and Constitutional
 > Committee members.
 
-These sessions sit between MS2 (qualitative data collection) and MS4
-(recommendations and prioritisation). The conversations validated the
+This session sits between MS2 (qualitative data collection) and MS4
+(recommendations and prioritisation). The conversation validated the
 on-chain metric findings against participant experience and surfaced the
 challenges that later became the input to the MS4 recommendation backlog.
+
+The MS3 deliverable also includes the on-chain measurement dataset itself
+(see the sibling `On-chain-measurements-epoch-537-609/` folder in this
+repository) and the live dashboards on the Beyond MVG application data
+view at https://beyond-mvg.vercel.app/data.
 
 ## Quick Navigation
 
 | Section | Contents | Files |
 |---------|----------|-------|
-| [transcripts/](transcripts/) | YouTube auto-caption transcripts, ASCII-cleaned, with frontmatter | 3 MD |
-| [sources.md](sources.md) | Links to YouTube recordings and Miro boards | -- |
-
----
+| [transcripts/](transcripts/) | YouTube auto-caption transcript, ASCII cleaned, with frontmatter | 1 MD |
+| [visuals/](visuals/) | Miro board exports and dashboard screenshots | placeholder |
+| [sources.md](sources.md) | Links to YouTube recording, Miro board and Beyond MVG dashboards | 1 MD |
 
 ## Sessions
 
 | Workshop | Date | Topic | Video |
 |----------|------|-------|-------|
-| #1 (kickoff) | 2026-02-19 | Governance Experience Insights -- ADA owner / DRep / SPO / CC questions tied to M1, M4/M5 and M10 | [YouTube](https://www.youtube.com/watch?v=D384TI5Tob8) |
-| #3 | 2026-02-07 | Governance Experience Insights -- M1 barriers, ADA-to-DRep delegation stickiness and DRep rationale publication | [YouTube](https://www.youtube.com/watch?v=Xopq9rT-L9U) |
-| #4 | 2026-03-27 | Governance Metrics Analysis -- first open analysis session over the new on-chain dashboards (DRep retention, Gini, cross-role concentration, delegation stickiness, rationale quality, ADA participation gap) | [YouTube](https://www.youtube.com/watch?v=vLZANFS3lbw) |
-
-The session numbering reflects the order they were published; workshop #3
-was actually held earlier than workshop #1 in calendar terms.
+| #4 | 2026-03-27 | Governance Metrics Analysis, first open analysis session over the new on-chain dashboards (DRep retention, Gini, cross-role concentration, delegation stickiness, rationale quality, ADA participation gap) | [YouTube](https://www.youtube.com/watch?v=vLZANFS3lbw) |
 
 ## Transcripts
 
-Each transcript is the raw YouTube auto-caption for the session, lightly
-cleaned to ASCII-safe punctuation and prefixed with a YAML frontmatter
+The transcript is the raw YouTube auto-caption for the session, lightly
+cleaned to ASCII safe punctuation and prefixed with a YAML frontmatter
 block (`workshop_number`, `date`, `title`, `video_url`, `attendees`,
-`youtube_description`). They are stored verbatim as the source of truth for
-the spoken content; cleaned summaries surface in the Beyond MVG application
-on the Workshops page.
+`youtube_description`). It is stored verbatim as the source of truth for
+the spoken content; cleaned summaries surface in the Beyond MVG
+application on the workshops page at
+https://beyond-mvg.vercel.app/workshops.
 
 | File | Workshop | Notes |
 |------|----------|-------|
-| [2026-02-19-workshop-01-transcript.md](transcripts/2026-02-19-workshop-01-transcript.md) | #1 | Kickoff session, four-stakeholder structured questions |
-| [2026-02-07-workshop-03-transcript.md](transcripts/2026-02-07-workshop-03-transcript.md) | #3 | Governance experience insights, three structured questions |
-| [2026-03-27-workshop-04-transcript.md](transcripts/2026-03-27-workshop-04-transcript.md) | #4 | First metrics-dashboard analysis session |
+| [2026-03-27-workshop-04-transcript.md](transcripts/2026-03-27-workshop-04-transcript.md) | #4 | First metrics dashboard analysis session |
 
----
+## Miro Board Pictures
+
+Place exported Miro board snapshots and dashboard screenshots used in the
+session inside [`visuals/`](visuals/). The full collaborative Miro board
+covering all Beyond MVG sessions is available at
+https://miro.com/app/board/uXjVGKVvy50=/ and a reusable workshop template
+lives on Miroverse at
+https://miro.com/miroverse/cardano-beyond-mvg-workshop-template/.
 
 ## Notes
 
-- Workshops in this folder are part of the Milestone 3 deliverable
-  (governance metrics framework and dashboards). They are distinct from
-  the MS2 facilitated workshops (see
-  [`../ms2-workshops-surveys-interviews/`](../ms2-workshops-surveys-interviews/))
-  which used the Miro template and produced the structured workshop
-  responses CSV.
-- Ratings, sentiment captures and AI-assisted summaries derived from these
-  sessions live in the Beyond MVG application database (observations and
-  workshop-discussion flags); only the underlying transcripts and source
-  links are mirrored here for archival purposes.
-- For the MS4 recommendations and prioritisation sessions that build on
-  these workshops, see
+- The earlier governance experience workshops (#1 and #3) belong to the
+  MS2 deliverable and are stored under
+  [`../ms2-workshops-surveys-interviews/transcripts/`](../ms2-workshops-surveys-interviews/transcripts/).
+- For the MS4 recommendation ideation, assessment and prioritisation
+  workshops that build on this session, see
   [`../ms4-recommendations-prioritisation/`](../ms4-recommendations-prioritisation/).

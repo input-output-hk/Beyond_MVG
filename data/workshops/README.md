@@ -21,9 +21,16 @@ workshops/
 
 | ID | Topic | Data Types | Folder |
 |----|-------|-----------|--------|
-| MS2 | Aggregated Workshops, Surveys & Interviews | 9 surveys, 5 interview sets, 4 workshop sessions, 7 Miro boards | [`ms2-workshops-surveys-interviews/`](ms2-workshops-surveys-interviews/) |
-| MS3 | Governance Metrics Analysis & Stakeholder Experience Workshops | 3 workshop transcripts (kickoff, governance experience insights, metrics dashboard analysis) | [`ms3-metrics-experience-analysis/`](ms3-metrics-experience-analysis/) |
-| MS4 | Governance Recommendations Ideation, Assessment & Prioritisation | 8 workshop transcripts and assessment summaries (recommendation ideation, DRep / voter / SPO / CC / language / wallet themes, consolidated prioritisation) | [`ms4-recommendations-prioritisation/`](ms4-recommendations-prioritisation/) |
+| MS2 | Aggregated Workshops, Surveys & Interviews | 9 surveys, 5 interview sets, 4 workshop sessions, 2 workshop transcripts (#1, #3), 7 Miro boards | [`ms2-workshops-surveys-interviews/`](ms2-workshops-surveys-interviews/) |
+| MS3 | Governance Metrics Analysis Workshop | 1 workshop transcript (#4 metrics dashboard analysis) | [`ms3-metrics-experience-analysis/`](ms3-metrics-experience-analysis/) |
+| MS4 | Governance Recommendations Ideation, Assessment and Prioritisation | 7 workshop transcripts (recommendation ideation, DRep, voter, SPO, CC, language and wallet themes, consolidated prioritisation), with placeholder for upcoming session #14 | [`ms4-recommendations-prioritisation/`](ms4-recommendations-prioritisation/) |
+
+The MS3 deliverable also includes the on chain measurement dataset in
+the sibling `On-chain-measurements-epoch-537-609/` folder and the live
+dashboards on the Beyond MVG application data view at
+https://beyond-mvg.vercel.app/data. Cleaned workshop summaries, ratings
+and the "Discussed in workshop" flags surface on
+https://beyond-mvg.vercel.app/workshops.
 
 ### Template
 
