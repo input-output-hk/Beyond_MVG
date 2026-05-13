@@ -22,6 +22,8 @@ workshops/
 | ID | Topic | Data Types | Folder |
 |----|-------|-----------|--------|
 | MS2 | Aggregated Workshops, Surveys & Interviews | 9 surveys, 5 interview sets, 4 workshop sessions, 7 Miro boards | [`ms2-workshops-surveys-interviews/`](ms2-workshops-surveys-interviews/) |
+| MS3 | Governance Metrics Analysis & Stakeholder Experience Workshops | 3 workshop transcripts (kickoff, governance experience insights, metrics dashboard analysis) | [`ms3-metrics-experience-analysis/`](ms3-metrics-experience-analysis/) |
+| MS4 | Governance Recommendations Ideation, Assessment & Prioritisation | 8 workshop transcripts and assessment summaries (recommendation ideation, DRep / voter / SPO / CC / language / wallet themes, consolidated prioritisation) | [`ms4-recommendations-prioritisation/`](ms4-recommendations-prioritisation/) |
 
 ### Template
 
