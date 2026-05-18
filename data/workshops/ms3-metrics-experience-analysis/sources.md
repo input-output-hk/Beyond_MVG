@@ -9,14 +9,6 @@ workshop.
 |----------|------|-----|
 | #4 | 2026-03-27 | https://www.youtube.com/watch?v=vLZANFS3lbw |
 
-## Beyond MVG Application
-
-The on-chain governance metrics dashboards walked through in this session
-are live on the Beyond MVG application data view:
-
-- Data view: https://beyond-mvg.vercel.app/data
-- Workshops page (cleaned summaries and ratings): https://beyond-mvg.vercel.app/workshops
-
 ## Miro Boards
 
 - MS3 workshop source board: https://miro.com/app/board/uXjVG1pIZRw=/?share_link_id=723765474201

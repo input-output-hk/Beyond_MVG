@@ -44,8 +44,10 @@ challenges that later became the input to the MS4 recommendation backlog.
 
 The MS3 deliverable also includes the on-chain measurement dataset itself
 (see the sibling `On-chain-measurements-epoch-537-609/` folder in this
-repository) and the live dashboards on the Beyond MVG application data
-view at https://beyond-mvg.vercel.app/data.
+repository). During the workshop the on-chain dashboards were reviewed
+and discussed, and the resulting observations and assessments were
+captured directly on the MS3 Miro board rather than in a separate
+application.
 
 ## Quick Navigation
 
@@ -67,9 +69,7 @@ The transcript is the raw YouTube auto-caption for the session, lightly
 cleaned to ASCII safe punctuation and prefixed with a YAML frontmatter
 block (`workshop_number`, `date`, `title`, `video_url`, `attendees`,
 `youtube_description`). It is stored verbatim as the source of truth for
-the spoken content; cleaned summaries surface in the Beyond MVG
-application on the workshops page at
-https://beyond-mvg.vercel.app/workshops.
+the spoken content.
 
 | File | Workshop | Notes |
 |------|----------|-------|
