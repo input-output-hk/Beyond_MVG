@@ -78,10 +78,12 @@ https://beyond-mvg.vercel.app/workshops.
 ## Miro Board Pictures
 
 Place exported Miro board snapshots and dashboard screenshots used in the
-session inside [`visuals/`](visuals/). The full collaborative Miro board
-covering all Beyond MVG sessions is available at
-https://miro.com/app/board/uXjVGKVvy50=/ and a reusable workshop template
-lives on Miroverse at
+session inside [`visuals/`](visuals/). The MS3 source Miro board for this
+workshop is available at
+https://miro.com/app/board/uXjVG1pIZRw=/?share_link_id=723765474201. The
+full collaborative Miro board covering all Beyond MVG sessions is
+available at https://miro.com/app/board/uXjVGKVvy50=/ and a reusable
+workshop template lives on Miroverse at
 https://miro.com/miroverse/cardano-beyond-mvg-workshop-template/.
 
 ## Notes

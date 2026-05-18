@@ -1,16 +1,12 @@
 # MS4 Visuals
 
-Place Miro board exports (PNG or PDF) and Beyond MVG application
-screenshots used in the MS4 recommendation workshops in this folder.
+Snapshots from the Beyond MVG application used in the MS4
+recommendation workshops.
 
-Use descriptive filenames, for example:
+- `Screenshot 2026-05-18 from Overview page.png` -- overview page
+  screenshot (https://beyond-mvg.vercel.app/)
 
-```
-miro-recommendation-overview.png
-miro-cc-credentials-discussion.pdf
-app-rice-assessment-cc-tooling.png
-```
+For the interactive experience, go to the app directly. See
+[`../sources.md`](../sources.md) for all links.
 
-Source links for the original Miro boards, the Beyond MVG application
-data view and the workshops page are listed in
-[`../sources.md`](../sources.md).
+![Beyond MVG overview page](Screenshot%202026-05-18%20from%20Overview%20page.png)

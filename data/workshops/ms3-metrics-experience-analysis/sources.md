@@ -19,6 +19,7 @@ are live on the Beyond MVG application data view:
 
 ## Miro Boards
 
+- MS3 workshop source board: https://miro.com/app/board/uXjVG1pIZRw=/?share_link_id=723765474201
 - Beyond MVG full workshop board (cross milestone): https://miro.com/app/board/uXjVGKVvy50=/
 - Reusable Miroverse template: https://miro.com/miroverse/cardano-beyond-mvg-workshop-template/
 

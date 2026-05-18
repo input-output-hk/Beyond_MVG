@@ -63,8 +63,8 @@ https://beyond-mvg.vercel.app/workshops.
 
 | Section | Contents | Files |
 |---------|----------|-------|
-| [transcripts/](transcripts/) | YouTube auto-caption transcripts, ASCII cleaned, with frontmatter | 7 MD |
-| [visuals/](visuals/) | Miro board exports and Beyond MVG application screenshots | placeholder |
+| [transcripts/](transcripts/) | YouTube auto-caption transcripts, ASCII cleaned, with frontmatter | 8 MD |
+| [visuals/](visuals/) | Beyond MVG application screenshots | placeholder |
 | [sources.md](sources.md) | Links to YouTube recordings and Beyond MVG application | 1 MD |
 
 ## Sessions
@@ -78,7 +78,7 @@ https://beyond-mvg.vercel.app/workshops.
 | #11 | 2026-04-28 | Language Barriers in Governance, AI translation, DRep localisation responsibility, dedicated translator role, four new recommendations assessed live | [YouTube](https://www.youtube.com/watch?v=7QldP5A_Q10) |
 | #12 | 2026-05-02 | Final Recommendations Session, Constitutional Committee credentials, CC tooling and CC incentives elevated to Must tier; workshop retrospective; freeze announcement before MS4 state of analysis | [YouTube](https://youtu.be/kn1iWt3BRbs) |
 | #13 | 2026-05-11 | Consolidated Recommendation Prioritisation, Session 1, working through the consolidated nine recommendations (DRep concentration and compensation CPS, in wallet governance) | [YouTube](https://youtu.be/Pcqya2EVPCw) |
-| #14 (upcoming) | TBD | Consolidated Recommendation Prioritisation, Session 2, continuation of the consolidated prioritisation set | TBD |
+| #14 | 2026-05-15 | Governance Takeover Incident Readiness and Incentives, CIP-135 style disaster recovery framework for governance, 1.5% DRep cap with annual delegation reset, Nakamoto coefficient alarms, MoSCoW=Must assessment, default DRep removal in next hard fork | [YouTube](https://youtu.be/U3YXk6CtyGI) |
 
 ## Transcripts
 
@@ -96,7 +96,7 @@ block (`workshop_number`, `date`, `title`, `video_url`, `attendees`,
 | [2026-04-28-workshop-11-transcript.md](transcripts/2026-04-28-workshop-11-transcript.md) | #11 | Language barriers |
 | [2026-05-02-workshop-12-transcript.md](transcripts/2026-05-02-workshop-12-transcript.md) | #12 | Final session, CC credentials, MS4 freeze |
 | [2026-05-11-workshop-13-transcript.md](transcripts/2026-05-11-workshop-13-transcript.md) | #13 | Consolidated prioritisation session 1 |
-| 2026-XX-XX-workshop-14-transcript.md (upcoming) | #14 | Consolidated prioritisation session 2, transcript to be added after the session |
+| [2026-05-15-workshop-14-transcript.md](transcripts/2026-05-15-workshop-14-transcript.md) | #14 | Governance takeover incident readiness and DRep cap / reset incentives |
 
 ## Recommendation Themes Surfaced
 
@@ -112,15 +112,14 @@ were taken forward into the consolidated recommendation set:
 6. CC tooling, CC incentives, CC credential operations (workshop #12)
 7. In wallet governance information and one click voting (workshop #13)
 8. Per issue or granular delegation (workshop #6, revisited #13)
+9. Governance takeover incident readiness, voting power concentration caps and annual delegation reset (workshop #14)
 
-## Miro Board Pictures
+## Application Screenshots
 
-Place exported Miro board snapshots and Beyond MVG application
-screenshots used in the sessions inside [`visuals/`](visuals/). The full
-collaborative Miro board covering all Beyond MVG sessions is available at
-https://miro.com/app/board/uXjVGKVvy50=/ and a reusable workshop template
-lives on Miroverse at
-https://miro.com/miroverse/cardano-beyond-mvg-workshop-template/.
+Place Beyond MVG application screenshots used in the sessions inside
+[`visuals/`](visuals/). MS4 workshops used the Beyond MVG application
+exclusively for live RICE and MoSCoW assessments; no Miro board was used
+in this milestone.
 
 ## Notes
 
