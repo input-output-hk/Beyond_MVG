@@ -1,0 +1,68 @@
+# Workshop Data
+
+> Qualitative data collected through stakeholder workshops, supplementing the on-chain quantitative metrics.
+
+## Overview
+
+This folder contains structured exports from governance workshops conducted as part of the Beyond MVG research initiative. Each workshop session has its own dated subfolder containing raw data, visuals, and source links.
+
+## Folder Structure
+
+```
+workshops/
+  YYYY-MM-DD-<topic>/          # One folder per workshop session
+    README.md                  # Workshop metadata and summary
+    raw-data/                  # CSV exports from Google Sheets
+    visuals/                   # Exported images/PDFs from Miro boards
+    sources.md                 # Links to original Google Sheets and Miro boards
+```
+
+## Data Index
+
+| ID | Topic | Data Types | Folder |
+|----|-------|-----------|--------|
+| MS2 | Aggregated Workshops, Surveys & Interviews | 9 surveys, 5 interview sets, 4 workshop sessions, 2 workshop transcripts (#1, #3), 7 Miro boards | [`ms2-workshops-surveys-interviews/`](ms2-workshops-surveys-interviews/) |
+| MS3 | Governance Metrics Analysis Workshop | 1 workshop transcript (#4 metrics dashboard analysis) | [`ms3-metrics-experience-analysis/`](ms3-metrics-experience-analysis/) |
+| MS4 | Governance Recommendations Ideation, Assessment and Prioritisation | 7 workshop transcripts (recommendation ideation, DRep, voter, SPO, CC, language and wallet themes, consolidated prioritisation), with placeholder for upcoming session #14 | [`ms4-recommendations-prioritisation/`](ms4-recommendations-prioritisation/) |
+
+The MS3 deliverable also includes the on chain measurement dataset in
+the sibling `On-chain-measurements-epoch-537-609/` folder and the live
+dashboards on the Beyond MVG application data view at
+https://beyond-mvg.vercel.app/data. Cleaned workshop summaries, ratings
+and the "Discussed in workshop" flags surface on
+https://beyond-mvg.vercel.app/workshops.
+
+### Template
+
+Use [`YYYY-MM-DD-topic/`](YYYY-MM-DD-topic/) as a template when adding new workshop data.
+
+## Schema for Agent Consumption
+
+Each workshop `README.md` contains YAML front matter with structured metadata:
+
+```yaml
+---
+type: workshop
+date: YYYY-MM-DD
+topic: "<Workshop topic>"
+participants: <number>
+facilitator: "<Name>"
+metrics_covered:
+  - "M3-X-X Metric name"
+tags:
+  - governance
+  - qualitative
+data_formats:
+  - csv
+  - png
+---
+```
+
+Agents can parse these front matter blocks to discover, filter, and cross-reference workshop data with on-chain metrics in `../On-chain-measurements-epoch-537-609/`.
+
+## Data Conventions
+
+- **Raw data**: Export Google Sheets as `.csv` (UTF-8 encoding). One CSV per sheet/tab. Keep the original sheet name in the filename.
+- **Visuals**: Export Miro boards as `.png` (for quick viewing) or `.pdf` (for print quality). Use descriptive filenames.
+- **Sources**: Always record the original Google Sheet and Miro board URLs in `sources.md` so data provenance is traceable.
+- **Naming**: Use lowercase kebab-case for folder names: `YYYY-MM-DD-short-topic-description`

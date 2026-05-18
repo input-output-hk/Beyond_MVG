@@ -33,7 +33,7 @@ Commissioned by Cardano DReps; delivered by IOG and Cardano Community Members in
 | Max van Rossem | — |
 | Nana Safo | Wada Global |
 | Richmond Oppong | Wada Global |
-| Tevo Kask | SWARM |
+| Tevo Kask | Voltaire Swarm |
 
 Special thanks to everyone that contributed, had critical eyes, debated with us, responded to surveys, and made this report possible.
 
