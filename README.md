@@ -8,7 +8,7 @@
 [![Cardano](https://img.shields.io/badge/Cardano-CIP--1694-blue)](https://cips.cardano.org/cip/CIP-1694)
 [![Documents](https://img.shields.io/badge/documents-3-orange)](docs/)
 [![Metrics](https://img.shields.io/badge/metrics-12-blueviolet)](README.md#governance-metrics-at-a-glance)
-[![Version](https://img.shields.io/badge/version-1.1.0-lightgrey)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-1.2.0-lightgrey)](CHANGELOG.md)
 
 ## Overview
 
@@ -86,7 +86,7 @@ Beyond_MVG/
 │   └── ISSUE_TEMPLATE/                           # Templates for feature requests
 ├── CHANGELOG.md                                  # Version history and document updates
 ├── CONTRIBUTING.md                               # How to contribute to this project
-├── LICENSE                                       # MIT License
+├── LICENSES_SUMMARY.md                           # Licensing summary
 └── README.md                                     # This file
 ```
 
