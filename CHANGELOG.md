@@ -4,6 +4,23 @@ All notable changes to the Beyond MVG research outputs are documented here.
 
 ---
 
+## [1.2.0] — 2026-06-18
+
+### Added
+- Interview notes, survey responses, and workshop data added to `data/` directory
+- Miro board workshop visual exports (7 PDFs) added under `data/workshops/ms2-workshops-surveys-interviews/visuals/`
+
+### Changed
+- Repository made ready for transfer to IOG GitHub organization
+
+### Fixed
+- Broken document links in README.md (Governance Measurement Framework and State of Governance Report Outline) corrected to match actual filenames and properly URL-encoded
+
+### Removed
+- Consolidated license files; retained only `LICENSES_SUMMARY.md` as the single reference for licensing terms
+
+---
+
 ## [1.1.0] — 2025-12-02 (Revised Edition)
 
 ### Changed
