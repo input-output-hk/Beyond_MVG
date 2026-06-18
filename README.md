@@ -94,7 +94,7 @@ Beyond_MVG/
 
 ## Core Documents
 
-### 1. [Governance Measurement Framework](docs/M1-1D_ State of Governance Measurement Framework - 12-02-2025 - Revised Edition.pdf)
+### 1. [Governance Measurement Framework](docs/M1-1D_%20State%20of%20Governance%20Measurement%20Framework%20-%2012-02-2025%20-%20Revised%20Edition.pdf)
 The foundational research document presenting the rationale and theoretical basis for measuring Cardano governance. Organizes metrics into four interconnected categories rooted in OSCE democratic principles and empirical DAO research:
 
 - **Ada Holder Metrics** — Legitimacy & Participation
@@ -109,7 +109,7 @@ Step-by-step technical guidance for calculating each metric. Intended for toolin
 Step-by-step technical guidance for calculating and generate visuals for each metric.
 Intended for tooling providers and technical community members who want to independently implement.
 
-### 4. [State of Governance Report Outline](docs/State_of_Governance_Report_Outline.pdf)
+### 4. [State of Governance Report Outline](docs/M1-1D_%20State%20of%20Governance%20-%20Report%20Outline%20-%2012-02-2025%20-%20Revised%20Edition.pdf)
 The template and structure for producing periodic State of Cardano Governance reports using the measurement framework. Defines sections covering methodology, key findings by GMF category, governance action analysis, and forward path recommendations.
 
 ---
