@@ -165,10 +165,10 @@ If you wish to use research materials from `/docs` or `/data` for **commercial p
 
 - Apache License 2.0: https://www.apache.org/licenses/LICENSE-2.0
 - CC BY-NC-SA 4.0 Full Legal Text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
-- Beyond MVG Repository: https://github.com/kenerik/Beyond_MVG
+- Beyond MVG Repository: https://github.com/input-output-hk/Beyond_MVG
 
 ---
 
-*Last Updated: April 2026*
+*Last Updated: june 2026*
 
 **For questions about licensing, please contact Input Output Global, Inc. (IOG).**
