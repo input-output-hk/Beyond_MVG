@@ -112,7 +112,7 @@ Step-by-step technical guidance for calculating each metric. Intended for toolin
 Step-by-step technical guidance for calculating and generate visuals for each metric.
 Intended for tooling providers and technical community members who want to independently implement.
 
-### 4. [State of Governance Report](docs/State%20Of%20Governance%20Report.pdf) [Indonesian Version](docs/State%20Of%20Cardano%20Governance%20Report-%20Indonesian%20Version.pdf)
+### 4. [State of Governance Report](docs/State%20Of%20Governance%20Report.pdf), [Indonesian Version](docs/State of Cardano Governance Report- Indonesian Version.pdf)
 The State of Cardano Governance reports using the measurement framework. Includes methodology, key findings by GMF category, governance action analysis, and forward path recommendations.
 
 ---
