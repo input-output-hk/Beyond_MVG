@@ -28,16 +28,16 @@ Commissioned by Cardano DReps; delivered by IOG and Cardano Community Members in
 | Fanny Wijaya | - |
 | JM Martinez Felices | IOG |
 | Kelvin Peter | IOG |
-| Ken Erik Oelmheim | — |
+| Ken Erik Oelmheim | - |
 | Maureen Wepngong | Giiyo Tech |
-| Max van Rossem | — |
+| Max van Rossem | - |
 | Nana Safo | Wada Global |
 | Richmond Oppong | Wada Global |
 | Tevo Kask | Voltaire Swarm |
 
 Special thanks to everyone that contributed, had critical eyes, debated with us, responded to surveys, and made this report possible.
 
-CIVICS Governance Health Working Group , Nicolas Cerny, Cathy Hermstad Patanakarun, Larisa Mcfarlane, Vaibhav Solanki, Thomas Lindseth, Mike Hornan, Cardano over coffee, 45B - Cardano Enablement, Epoch end, Cardano budget committee, Beatrice Anihiri, Will Eddie, Arman Abid, Van Rossem family, Cardano foundation, Charles Hoskinson and all employees at IOG, CIP-1694 contributors,
+CIVICS Governance Health Working Group , Nicolas Cerny, Cathy Hermstad Patanakarun, Larisa Mcfarlane, Vaibhav Solanki, Thomas Lindseth, Mike Hornan, Cardano over coffee, 45B - Cardano Enablement, Epoch end, Cardano budget committee, Beatrice Anihiri, Will Eddie, Arman Abid, Van Rossem family, the Cardano Foundation, Charles Hoskinson and all employees at IOG, CIP-1694 contributors.
 
 ---
 
